@@ -1,0 +1,14 @@
+core_cm0.h:500:22:NVIC_EnableIRQ	16	static
+core_cm0.h:552:22:NVIC_ClearPendingIRQ	16	static
+iocon_11xx.h:249:20:Chip_IOCON_PinMuxSet	24	static
+timer_11xx.h:112:20:Chip_TIMER_MatchPending	16	static
+timer_11xx.h:137:20:Chip_TIMER_ClearMatch	16	static
+timer_11xx.h:160:20:Chip_TIMER_Enable	16	static
+timer_11xx.h:218:20:Chip_TIMER_SetMatch	24	static
+timer_11xx.h:249:20:Chip_TIMER_MatchEnableInt	16	static
+timer_11xx.h:271:20:Chip_TIMER_ResetOnMatchEnable	16	static
+main.c:47:6:TIMER16_1_IRQHandler	24	static
+main.c:63:5:main	8	static
+main.c:84:6:timerInit	8	static
+main.c:100:6:adcInit	8	static
+main.c:111:10:adcGetValue	16	static
